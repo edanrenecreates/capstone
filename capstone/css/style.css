@@ -1,0 +1,156 @@
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(rgb(58, 58, 58), black);
+}
+
+
+/* Navigation */
+
+.navbar-brand img {
+  height: 100%;
+  width: 150px;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.navbar {
+  background: #000 !important;
+}
+
+.navbar ul li {
+  font-weight: bold;
+}
+
+.navbar .explore {
+  color: #ffdd3f;
+  opacity: .80;
+  justify-content: flex-start;
+}
+
+.navbar .btn-dark {
+  margin: 10px;
+}
+
+.btn-dark > .fa-chevron-down {
+  color: #47cf73;
+  padding-left: 5px;
+  margin-top: 8px;
+}
+
+.fa-search {
+  color: rgba(255, 255, 255, .65);
+  font-size: 1.75em;
+}
+
+
+/* main section */
+
+.main-wrapper {
+  display: flex;
+  color: rgba(255, 255, 255, .85);
+  display: flex;
+  background-image: linear-gradient(rgb(58, 58, 58), black);
+  color: rgb(156, 156, 156);
+  margin-top: 50px;
+  height: 550px;
+}
+
+h3 {
+  color: #828a93;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.mainOne {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-col {
+  padding: 30px;
+  margin-top: 35px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-col h1 {
+  font-weight: 100;
+  color: rgba(255, 255, 255, .65);
+}
+
+.left-col, .mainOne, .mainTwo {
+  width: 80%;
+}
+
+h1 span {
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.right-col {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.right-col h4 span {
+  color: #25b1fb;
+  font-weight: bold;
+}
+
+.right-col img {
+  width: 700px;
+}
+
+.main-buttons .btn {
+  border-radius: 2px;
+  font-size: 1.25rem;
+  border: none;
+}
+
+.main-buttons .btn-success {
+  background: #47cf73;
+  margin-right: 15px;
+  border: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.main-buttons>.btn:nth-child(2) {
+  background-color: #000;
+  padding: 8px;
+  width: 150px;
+}
+
+
+/* Bottom Section */
+
+.bottom-section {
+  background-color: #292929;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.bottom-section h4 span {
+  font-weight: bold;
+  font-size: 1.30rem;
+}
+
+.box1, .box2, .box3, .box4 {
+  border: 1px solid rgba(255, 255, 255, 0.60);
+  width: 100%;
+  padding: 30px;
+}
